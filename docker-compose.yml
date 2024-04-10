@@ -1,0 +1,10 @@
+version: "3"
+services:
+  your_service_name:
+    build: .
+    networks:
+      - today_net
+
+networks:
+  today_net:
+    external: true
